@@ -1,0 +1,44 @@
+.ttm-fid-icon-wrapper .font i {
+    font-size: 50px;
+    line-height: 55px;
+    transition: all 1s ease;
+    font: normal normal normal 50px/1 FontAwesome;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.ttm-icon .icon i {
+    font: normal normal normal 50px/1 FontAwesome;
+    font-size: 45px;
+    padding-left: 15px;
+}
+
+.featured-content .page-content {
+    margin-top: 12px;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 20px; /* fallback */
+    max-height: 80px; /* fallback */
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.featured-thumbnails img {
+    width: auto;
+    height: 280px;
+}
+
+.social-icons .fa {
+    display: inline-block;
+    font: normal normal normal 14px/3 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.unclickable > a:hover {
+    cursor: default !important;
+}   

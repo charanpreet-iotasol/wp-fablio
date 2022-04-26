@@ -1,0 +1,241 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0c88acd40f0af852fb4677c1dcc48961") format("truetype"),
+url("./flaticon.woff?0c88acd40f0af852fb4677c1dcc48961") format("woff"),
+url("./flaticon.woff2?0c88acd40f0af852fb4677c1dcc48961") format("woff2"),
+url("./flaticon.eot?0c88acd40f0af852fb4677c1dcc48961#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0c88acd40f0af852fb4677c1dcc48961#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "botton": "\f101",
+    "chat": "\f102",
+    "clock": "\f103",
+    "coat": "\f104",
+    "delivery-truck": "\f105",
+    "dressmaker": "\f106",
+    "email-1": "\f107",
+    "email-2": "\f108",
+    "email": "\f109",
+    "fabric-1": "\f10a",
+    "fabric-2": "\f10b",
+    "fabric": "\f10c",
+    "factory": "\f10d",
+    "flameproof-fabric": "\f10e",
+    "iron": "\f10f",
+    "jacket": "\f110",
+    "jeans": "\f111",
+    "knitting-1": "\f112",
+    "knitting": "\f113",
+    "measuring-tape": "\f114",
+    "moisture-wicking-fabric": "\f115",
+    "needlework": "\f116",
+    "phone-call": "\f117",
+    "placeholder": "\f118",
+    "play": "\f119",
+    "print": "\f11a",
+    "returning": "\f11b",
+    "rug": "\f11c",
+    "sewing-machine": "\f11d",
+    "sewing": "\f11e",
+    "shipped": "\f11f",
+    "silk-1": "\f120",
+    "silk": "\f121",
+    "socks": "\f122",
+    "suit": "\f123",
+    "t-shirt": "\f124",
+    "telephone-1": "\f125",
+    "telephone": "\f126",
+    "textile-1": "\f127",
+    "textile-2": "\f128",
+    "textile": "\f129",
+    "textiles-1": "\f12a",
+    "textiles": "\f12b",
+    "tshirt-1": "\f12c",
+    "tshirt": "\f12d",
+    "vest": "\f12e",
+    "wallet": "\f12f",
+    "warehouse-1": "\f130",
+    "warehouse": "\f131",
+    "water-resistant": "\f132",
+    "wool-1": "\f133",
+    "wool": "\f134",
+    "yarn-1": "\f135",
+    "yarn": "\f136",
+);
+
+.flaticon-botton:before {
+    content: map-get($flaticon-map, "botton");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-coat:before {
+    content: map-get($flaticon-map, "coat");
+}
+.flaticon-delivery-truck:before {
+    content: map-get($flaticon-map, "delivery-truck");
+}
+.flaticon-dressmaker:before {
+    content: map-get($flaticon-map, "dressmaker");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon-map, "email-1");
+}
+.flaticon-email-2:before {
+    content: map-get($flaticon-map, "email-2");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-fabric-1:before {
+    content: map-get($flaticon-map, "fabric-1");
+}
+.flaticon-fabric-2:before {
+    content: map-get($flaticon-map, "fabric-2");
+}
+.flaticon-fabric:before {
+    content: map-get($flaticon-map, "fabric");
+}
+.flaticon-factory:before {
+    content: map-get($flaticon-map, "factory");
+}
+.flaticon-flameproof-fabric:before {
+    content: map-get($flaticon-map, "flameproof-fabric");
+}
+.flaticon-iron:before {
+    content: map-get($flaticon-map, "iron");
+}
+.flaticon-jacket:before {
+    content: map-get($flaticon-map, "jacket");
+}
+.flaticon-jeans:before {
+    content: map-get($flaticon-map, "jeans");
+}
+.flaticon-knitting-1:before {
+    content: map-get($flaticon-map, "knitting-1");
+}
+.flaticon-knitting:before {
+    content: map-get($flaticon-map, "knitting");
+}
+.flaticon-measuring-tape:before {
+    content: map-get($flaticon-map, "measuring-tape");
+}
+.flaticon-moisture-wicking-fabric:before {
+    content: map-get($flaticon-map, "moisture-wicking-fabric");
+}
+.flaticon-needlework:before {
+    content: map-get($flaticon-map, "needlework");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-print:before {
+    content: map-get($flaticon-map, "print");
+}
+.flaticon-returning:before {
+    content: map-get($flaticon-map, "returning");
+}
+.flaticon-rug:before {
+    content: map-get($flaticon-map, "rug");
+}
+.flaticon-sewing-machine:before {
+    content: map-get($flaticon-map, "sewing-machine");
+}
+.flaticon-sewing:before {
+    content: map-get($flaticon-map, "sewing");
+}
+.flaticon-shipped:before {
+    content: map-get($flaticon-map, "shipped");
+}
+.flaticon-silk-1:before {
+    content: map-get($flaticon-map, "silk-1");
+}
+.flaticon-silk:before {
+    content: map-get($flaticon-map, "silk");
+}
+.flaticon-socks:before {
+    content: map-get($flaticon-map, "socks");
+}
+.flaticon-suit:before {
+    content: map-get($flaticon-map, "suit");
+}
+.flaticon-t-shirt:before {
+    content: map-get($flaticon-map, "t-shirt");
+}
+.flaticon-telephone-1:before {
+    content: map-get($flaticon-map, "telephone-1");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-textile-1:before {
+    content: map-get($flaticon-map, "textile-1");
+}
+.flaticon-textile-2:before {
+    content: map-get($flaticon-map, "textile-2");
+}
+.flaticon-textile:before {
+    content: map-get($flaticon-map, "textile");
+}
+.flaticon-textiles-1:before {
+    content: map-get($flaticon-map, "textiles-1");
+}
+.flaticon-textiles:before {
+    content: map-get($flaticon-map, "textiles");
+}
+.flaticon-tshirt-1:before {
+    content: map-get($flaticon-map, "tshirt-1");
+}
+.flaticon-tshirt:before {
+    content: map-get($flaticon-map, "tshirt");
+}
+.flaticon-vest:before {
+    content: map-get($flaticon-map, "vest");
+}
+.flaticon-wallet:before {
+    content: map-get($flaticon-map, "wallet");
+}
+.flaticon-warehouse-1:before {
+    content: map-get($flaticon-map, "warehouse-1");
+}
+.flaticon-warehouse:before {
+    content: map-get($flaticon-map, "warehouse");
+}
+.flaticon-water-resistant:before {
+    content: map-get($flaticon-map, "water-resistant");
+}
+.flaticon-wool-1:before {
+    content: map-get($flaticon-map, "wool-1");
+}
+.flaticon-wool:before {
+    content: map-get($flaticon-map, "wool");
+}
+.flaticon-yarn-1:before {
+    content: map-get($flaticon-map, "yarn-1");
+}
+.flaticon-yarn:before {
+    content: map-get($flaticon-map, "yarn");
+}
